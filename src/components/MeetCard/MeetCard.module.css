@@ -1,0 +1,28 @@
+.cardCont {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  margin: 1rem;
+}
+
+.cardCont:hover {
+  box-shadow: 1px 1px 5px gray;
+}
+
+.cardCont img {
+  border-radius: 5px;
+}
+
+.cardCont p {
+  opacity: 60%;
+  font-size: 0.8rem;
+}
+
+.cardCont span {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  background-color: whitesmoke;
+  padding: 0.2rem;
+  border-radius: 5px;
+}

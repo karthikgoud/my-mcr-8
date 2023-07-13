@@ -1,0 +1,104 @@
+.mainCont {
+  display: grid;
+  grid-template-columns: 500px 200px;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.detailsMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.detailsMain img {
+  margin-top: 1rem;
+}
+
+.detailsMain h1,
+h3 {
+  margin: 1rem 0;
+}
+
+.detailsMain .tags {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: red;
+  color: white;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.asideTime {
+  background-color: whitesmoke;
+  padding: 1rem;
+  width: 300px;
+}
+
+.asideFlex {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.speakers {
+  margin-top: 1rem;
+}
+
+.speakersCont {
+  margin-top: 1rem;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.rsvp {
+  margin-top: 1rem;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.rsvp button {
+  padding: 0.5rem 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  gap: 1rem;
+  padding: 1rem;
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  background-color: whitesmoke;
+  height: 400px;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.modal form input {
+  display: block;
+  width: 80%;
+  padding: 0.5rem;
+}
+
+.modal button {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

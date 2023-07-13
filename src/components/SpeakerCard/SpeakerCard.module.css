@@ -1,0 +1,19 @@
+.cardSpeaker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.cardSpeaker img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cardSpeaker p {
+  font-size: 0.8rem;
+}
